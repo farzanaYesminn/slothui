@@ -11,10 +11,10 @@
             rel="stylesheet"
     />
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="styles/style.css"/>
 
     <!-- Responsive Stylesheet -->
-    <link rel="stylesheet" href="./responsive.css"/>
+    <link rel="stylesheet" href="styles/responsive.css"/>
     <!-- Font Awesome (v6.7.2) -->
     <link
             rel="stylesheet"
@@ -38,17 +38,22 @@
                 <div class="logo">
                     <a href="#"><img src="./images/logo.png" alt="Slothui Logo"></a>
                 </div>
-                <div>
+
+                <button class="hamburger" id="hamburger">
+                    <img src="./images/monotone.png" alt="Menu" />
+                </button>
+
+                <div class="nav-menu" id="navMenu">
                     <ul class="nav-list">
-                        <li><a href="#">Feature</a></li>
-                        <li><a href="#">Achievements</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#feature">Feature</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                     </ul>
-                </div>
-                <div class="nav-btn">
-                    <a href="#" class="signup-btn">Sign Up </a>
-                    <a href="#" class="login-btn">Log in </a>
+                    <div class="nav-btn">
+                        <a href="#" class="signup-btn">Sign Up</a>
+                        <a href="#" class="login-btn">Log in</a>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -121,7 +126,7 @@
     <!-- Company Logo Section End-->
 
     <!-- Features Section Start -->
-    <section>
+    <section id="feature">
         <div class="features-container">
             <div class="features-text">
                 <h5>Our Main Features</h5>
@@ -172,7 +177,7 @@
     <!-- Features Section End -->
 
     <!-- lazily Achieve Section Start -->
-    <section>
+    <section id="achievements">
         <div class="achieve-container">
             <div class="achieve-text">
                 <img src="./images/lazily-achieve.png" alt="Achieve Icon" class="achieve-icon">
@@ -236,7 +241,7 @@
     <!-- Procrastinator Section End -->
 
     <!-- Client review Section Start -->
-    <section>
+    <section id="testimonials">
         <div class="client-review-container">
             <div class="client-review-text">
                 <h5>Testimonials</h5>
@@ -468,81 +473,83 @@
     <!-- Office Loaction Section End -->
 
     <!-- FAQ Section Start -->
-    <div class="faq-text-container">
-        <h5>FAQ</h5>
-        <h1>Frequently Asked Questions</h1>
-        <p>Fermentum iaculis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas fringilla phasellus.
-            Donec ac odio tempor orci dapibus ultrices.</p>
-    </div>
-    <div class="collapsible-section">
-        <!-- 1 -->
-        <button class="collapsible">
+    <section id="faq">
+        <div class="faq-text-container">
+            <h5>FAQ</h5>
+            <h1>Frequently Asked Questions</h1>
+            <p>Fermentum iaculis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas fringilla phasellus.
+                Donec ac odio tempor orci dapibus ultrices.</p>
+        </div>
+        <div class="collapsible-section">
+            <!-- 1 -->
+            <button class="collapsible">
             <span>
                 <i class="fa-regular fa-circle-question"></i>
                 Enim sed faucibus turpis in eu mi bibendum neque egestas?
             </span>
-            <span class="arrow"></span>
-        </button>
+                <span class="arrow"></span>
+            </button>
 
-        <div class="content">
-            <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
-                imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
-                cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
-        </div>
-        <!-- 2 -->
-        <button class="collapsible">
+            <div class="content">
+                <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
+                    imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
+                    cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+            </div>
+            <!-- 2 -->
+            <button class="collapsible">
             <span>
                 <i class="fa-regular fa-circle-question"></i>
                 Amet consectetur adipiscing elit pellentesque habitant morbi tristique?
             </span>
-            <span class="arrow"></span>
-        </button>
-        <div class="content">
-            <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
-                imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
-                cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
-        </div>
-        <!-- 3 -->
-        <button class="collapsible">
+                <span class="arrow"></span>
+            </button>
+            <div class="content">
+                <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
+                    imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
+                    cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+            </div>
+            <!-- 3 -->
+            <button class="collapsible">
             <span>
                 <i class="fa-regular fa-circle-question"></i>
                 Elit pellentesque habitant morbi tristique senectus?
             </span>
-            <span class="arrow"></span>
-        </button>
-        <div class="content">
-            <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
-                imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
-                cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
-        </div>
-        <!-- 4 -->
-        <button class="collapsible">
+                <span class="arrow"></span>
+            </button>
+            <div class="content">
+                <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
+                    imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
+                    cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+            </div>
+            <!-- 4 -->
+            <button class="collapsible">
             <span>
                 <i class="fa-regular fa-circle-question"></i>
                 Gravida quis blandit turpis cursus in hac. Mi ipsum faucibus vitae aliquet nec?
             </span>
-            <span class="arrow"></span>
-        </button>
-        <div class="content">
-            <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
-                imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
-                cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
-        </div>
-        <!-- 5 -->
-        <button class="collapsible">
+                <span class="arrow"></span>
+            </button>
+            <div class="content">
+                <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
+                    imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
+                    cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+            </div>
+            <!-- 5 -->
+            <button class="collapsible">
             <span>
                 <i class="fa-regular fa-circle-question"></i>
                 Est pellentesque elit ullamcorper dignissim cras. In pellentesque massa placerat?
             </span>
-            <span class="arrow"></span>
-        </button>
-        <div class="content">
-            <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
-                imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
-                cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
-        </div>
+                <span class="arrow"></span>
+            </button>
+            <div class="content">
+                <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis
+                    imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id
+                    cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+            </div>
 
-    </div>
+        </div>
+    </section>
 
     <!-- FAQ Section End -->
 
