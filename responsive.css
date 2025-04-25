@@ -1,0 +1,149 @@
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 2%;
+    }
+
+    .features-cards,
+    .client-review-cards,
+    .office-location-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-text,
+    .features-text,
+    .achieve-text,
+    .procrastinator-text,
+    .client-review-text,
+    .office-location-text,
+    .faq-text-container {
+        width: 90%;
+    }
+
+    .hero-text h1,
+    .features-text h1,
+    .achieve-text h1,
+    .procrastinator-text h1,
+    .client-review-text h1,
+    .office-location-text h1,
+    .faq-text-container h1 {
+        font-size: 42px;
+    }
+
+    .hero-section {
+        gap: 3rem;
+    }
+
+    .download-app-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .procrastinator-content {
+        flex-direction: column;
+    }
+
+    .procrastinator-text p,
+    .client-review-text p,
+    .office-location-text p,
+    .faq-text-container p {
+        width: 100%;
+    }
+
+    .procrastinator-image {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .features-cards,
+    .client-review-cards,
+    .office-location-cards {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem 0;
+    }
+
+    .achieve-cards {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 2rem 0;
+    }
+
+    .procrastinator-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-list-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .download-app-btn {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero-text h1,
+    .features-text h1,
+    .achieve-text h1,
+    .procrastinator-text h1,
+    .client-review-text h1,
+    .office-location-text h1,
+    .faq-text-container h1 {
+        font-size: 30px;
+    }
+
+    .hero-text p,
+    .features-text p,
+    .achieve-text p,
+    .procrastinator-text p,
+    .client-review-text p,
+    .office-location-text p,
+    .faq-text-container p {
+        font-size: 16px;
+    }
+
+    .client-review {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-list-container {
+        grid-template-columns: 1fr;
+    }
+
+    .office-location-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .app-store {
+        width: 100%;
+    }
+
+    .hero-image img,
+    .procrastinator-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .features-text,
+    .hero-text {
+        width: 100%;
+    }
+}
