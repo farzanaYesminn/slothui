@@ -633,6 +633,22 @@ text-align: center;
     font-weight: 400;
     color: #475569;
 }
+.office-location-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: #4F46E5;
+    text-align: center;
+    color: #FFFFFF;
+    border: #4F46E5 1px solid;
+}
+.client-review-card:nth-child(n+5) {
+    display: none; /* Hide comments after the first 4 */
+}
 
 /* Client review Section End */
 
@@ -651,8 +667,6 @@ text-align: center;
     gap: 1rem;
 
 }
-
-
 
 .office-location-text p {
     font-size: 18px;
@@ -685,7 +699,6 @@ text-align: center;
     width: 18px;
     height: 22px;
 }
-
 /* Office Location Section End */
 /* FAQ Section Start */
 .faq-text-container {
