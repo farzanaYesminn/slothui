@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             navMenu.classList.toggle("active");
         });
     }
+    
 
     if (collapsibleButtons.length > 0) {
         collapsibleButtons.forEach(button => {

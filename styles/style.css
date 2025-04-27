@@ -58,14 +58,14 @@ a {
 }
 
 .hamburger img {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
 }
 
 .nav-menu {
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
 }
@@ -137,8 +137,7 @@ a {
 }
 
 /* Hero Section End */
-
-/* End Section Start */
+/* Header Section Start */
 
 /* Company Logo Section Start */
 .company-logo-container {
@@ -303,7 +302,7 @@ a {
 
 .achieve-card h3 {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     color: #4F46E5;
 }
 
@@ -529,8 +528,8 @@ a {
 }
 
 .office-image {
-    width: 17px;
-    height: 21px;
+    width: 18px;
+    height: 22px;
     object-fit: cover;
 }
 
@@ -681,6 +680,9 @@ a {
 /* Download App Section End */
 
 /* Footer Section Start */
+.footer-copyright-mobile{
+    display: none;
+}
 .footer-list-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
